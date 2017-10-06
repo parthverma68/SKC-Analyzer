@@ -1,0 +1,30 @@
+div
+{
+    background:black;
+    font-family:serif;
+   color:yellow;
+    height:400px;
+    width:100%;
+}
+
+#head
+{
+    height:80px;
+    width:98%;
+    background:red;
+
+    padding:50px;
+}
+#main
+{
+    height:300px;
+    width:100%;
+    background:green;
+}
+#output
+{
+    height:600px;
+    width:100%;
+    border:2px;
+  
+}
