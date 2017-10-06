@@ -1,0 +1,59 @@
+<html>
+<head>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div id="head">
+<center>SKC-ANALYZER</center>
+  </div>
+  <div id="main">
+      <form action="bl.jsp" method="post">
+         Choose a File <input type="file" name="pic">
+         <center>Choose an alternative</center>  
+         Choose a File Type 
+         <select id="fus">
+        
+                  <option name="audio">audio</option>
+                  <option name="video">video</option>
+                  <option name="textfile">textfile</option>
+                  <option name="pdf">pdf file</option>
+                  <option name="n1">ppt</option>
+                  <option name="n1">doc file</option>
+                  <option name="n1">excel file</option>
+                  <option name="n1">access file</option>
+               </select><br/> 
+         
+         Enter a file size<input type="number" id="size">
+        
+              <select id="fus3">
+              <option name="Bytes">Bytes</option>
+             <option name="KB">KB</option>
+             <option name="MB">MB</option>
+             <option name="GB">GB</option>
+              <option name="TB">TB</option>
+              <option name="PB">PB</option>
+  
+                
+        </select></br>
+     
+      Choose an Encryption Algorithm
+       <select id="fus2">
+        
+             <option name="AES">AES</option>
+             <option name="DES">DES</option>
+             <option name="3DES">3DES</option>
+              <option name="Blowfish">Blowfish</option>
+              <option name="Twofish">Twofish</option>
+              <option name="Md5">MD5</option>
+                
+        </select></br>
+        <input type="button" name="b1" value="submit">
+   
+      </form>
+      
+  </div>
+  <div id="output"></div>
+</body>
+</html>
