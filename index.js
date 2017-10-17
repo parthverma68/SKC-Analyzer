@@ -2,11 +2,12 @@
 
 <script>
 $(document).ready(function() {
-    $("#usertest").submit(function(){
+   
+   $("#b1").submit(function(e){
+e.preventDefault();
   var x= $("#fus2").val();
   var data=$("#userinput").val();
-  console. log("user wants to encrypt by"+x+"and user input is" +data)
-});
+  console. log("user wants to encrypt by"+x+"and user input is" +data);
 });
 
 
