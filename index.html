@@ -1,18 +1,21 @@
 <html>
-<head>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 
-</head>
-<body>
-<div id="head">
+    </head>
+  <body>
+         <div id="head">
+           <
+        
+
 
 <center>SKC-ANALYZER</center>
 
   </div>
-
+<center>
   <div id="main">
 
-      <form action="bl.jsp" method="post">
+      <form action="bl.jsp" method="post" id="usertest">
 
       <!--   Choose a File <input type="file" name="pic">
 
@@ -24,21 +27,21 @@
 
         
 
-                  <option name="audio">audio</option>
+                  <option>audio</option>
 
-                  <option name="video">video</option>
+                  <option>video</option>
 
-                  <option name="textfile">textfile</option>
+                  <option>textfile</option>
 
-                  <option name="pdf">pdf file</option>
+                  <option>pdf file</option>
 
-                  <option name="ppt">ppt</option>
+                  <option>ppt</option>
 
-                  <option name="doc">doc file</option>
+                  <option>doc file</option>
 
-                  <option name="excel">excel file</option>
+                  <option>excel file</option>
 
-                  <option name="access">access file</option>
+                  <option>access file</option>
 
                </select><br/> 
 
@@ -50,17 +53,17 @@
 
               <select id="fus3">
 
-              <option name="Bytes">Bytes</option>
+              <option>Bytes</option>
 
-             <option name="KB">KB</option>
+             <option>KB</option>
 
-             <option name="MB">MB</option>
+             <option>MB</option>
 
-             <option name="GB">GB</option>
+             <option>GB</option>
 
-              <option name="TB">TB</option>
+              <option>TB</option>
 
-              <option name="PB">PB</option>
+              <option>PB</option>
 
   
 
@@ -76,22 +79,22 @@
 
         
 
-             <option name="AES">AES</option>
+             <option>AES</option>
 
-             <option name="DES">DES</option>
+             <option>DES</option>
 
-             <option name="3DES">3DES</option>
+             <option>3DES</option>
+             
+              <option>Blowfish</option>
 
-              <option name="Blowfish">Blowfish</option>
+              <option>Twofish</option>
 
-              <option name="Twofish">Twofish</option>
-
-              <option name="Md5">MD5</option>
+              <option>MD5</option>
 
                 
 
         </select></br>
-        <textarea rows="10" cols="50"></textarea>
+        <textarea rows="10" cols="50" id="userinput"></textarea>
         <input type="button" name="b1" value="submit">
 
    
@@ -100,7 +103,7 @@
 
       
 
-  </div><br/>
+  </div></center><br/>
 
   <div id="output">
       ALGORITHEM TYPE:<input type="text" id="setalgo">
@@ -111,5 +114,10 @@
       TIME FOR DYCRYPTION:<input type="text" id="settimeD"><br/>
   </div>
 
+
+
+
+
   </body>
 </html>
+  
