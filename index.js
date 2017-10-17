@@ -1,22 +1,12 @@
-script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 
 <script>
-$(document).ready(function()
-{
-  $("#b1").bind('click',function()
-  {
-      
-    var that=$(this);  data={};
- that.find('[name]').each(function(index,value)
- {
-       var name=that.attr('name');
-       var value=that.val();
-       data[name]=value;
-     console.log("jyoti");
-  })
- 
-})
-    
+$(document).ready(function() {
+    $("#usertest").submit(function(){
+  var x= $("#fus2").val();
+  var data=$("#userinput").val();
+  console. log("user wants to encrypt by"+x+"and user input is" +data)
+});
 });
 
 
