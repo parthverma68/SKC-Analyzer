@@ -1,30 +1,22 @@
-div
-{
-    background:black;
-    font-family:serif;
-   color:yellow;
-    height:400px;
-    width:100%;
-}
-
-#head
-{
-    height:80px;
-    width:98%;
-    background:red;
-
-    padding:50px;
-}
-#main
-{
-    height:300px;
-    width:100%;
-    background:green;
-}
 #output
 {
-    height:600px;
-    width:100%;
-    border:2px;
-  
+    background:yellow;
+    border:10px;
+    height:300px;
+    width:auto;
+    padding:10px;
+    margin:10px 10px;
 }
+#output input
+{
+    border:0px;
+    
+}
+body
+{
+    background:gray;
+    color:black;
+}
+
+
+
