@@ -12,3 +12,43 @@ e.preventDefault();
 
 
 </script>
+<script type="text/javascript">
+  window.onload = function ()
+   {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "ANALYSYS OF ACCOUT DATA"    
+      },
+      animationEnabled: true,
+      axisY: {
+        title: "NUMBER OF ACCOUNT"
+      },
+      legend: {
+        verticalAlign: "bottom",
+        horizontalAlign: "center"
+      },
+      theme: "theme3",
+      data: [
+      {        
+        type: "pie",  
+        showInLegend:true, 
+        legendMarkerColor: "gray",
+        legendText: ">",
+                dataPoints: [      
+                {y:<?php echo $ot;?> , label: "OTHER"},
+                {y:<?php echo $xbk;?> ,  label: "BANKING" },
+                {y:<?php echo $xs;?> , label: "SHOPPING" },
+                {y:<?php echo $xb;?> ,  label: "BOOKING" },
+                ]
+       }   
+      ]
+    });
+    chart.render();
+  }
+   
+</script>
+ 
+<div id="chartContainer" height="600" width="600">
+</div>
+   </script>
