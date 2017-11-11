@@ -29,7 +29,7 @@
    
    //prepare stage
    
-    Cipher cipher = Cipher.getInstance("DES/ECB/PKCS5Padding");
+   Cipher cipher = Cipher.getInstance("+ealgo+"/ECB/PKCS5Padding");
     out.println( "\n" + cipher.getProvider().getInfo() );
  
  
